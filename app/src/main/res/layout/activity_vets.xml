@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@android:style/Widget.DeviceDefault.ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/alyce"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/vetperson" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/alyceimage"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Dr.Alyce Altman"
+                    android:textColor="#611E10"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:layout_weight="1"
+                    android:onClick="alyceButton"
+                    android:text="Click here: To add me as a Contact" />
+
+                <RatingBar
+                    android:id="@+id/alyceratingBar4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:numStars="4" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="5dp"
+            android:background="#000000"
+            android:layout_marginTop="10dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/jacksonimage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/henryjackson" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/jacksontextview"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Dr.Henry Jackson"
+                    android:textColor="#611E10"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/jacksonbutton"
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:layout_weight="1"
+                    android:onClick="jacksonButton"
+                    android:text="Click here: To add me as a Contact" />
+
+                <RatingBar
+                    android:id="@+id/jacksonratingBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:numStars="4" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="5dp"
+            android:background="#000000"
+            android:layout_marginTop="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/stewartimage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/jennastewart" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/stewarttextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Dr.Jenna Stewart"
+                    android:textColor="#611E10"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/stewartbutton"
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:layout_weight="1"
+                    android:onClick="stewartButton"
+                    android:text="Click here: To add me as a Contact" />
+
+                <RatingBar
+                    android:id="@+id/stewartratingBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:numStars="4" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="5dp"
+            android:background="#000000"
+            android:layout_marginTop="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/smithimageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/robertsmith" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/smithtextView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Dr.Robert Smith"
+                    android:textColor="#611E10"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/smithbutton"
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:layout_weight="1"
+                    android:text="Click here: To add me as a Contact" />
+
+                <RatingBar
+                    android:id="@+id/smithratingBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:numStars="4" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="5dp"
+            android:background="#000000"
+            android:layout_marginTop="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/whiteimageView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/hollywhite" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/whitetextView"
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="Dr.Holly White"
+                            android:textColor="#611E10"
+                            android:textSize="25dp" />
+
+                        <Button
+                            android:id="@+id/whitebutton"
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp"
+                            android:layout_weight="1"
+                            android:onClick="whiteButton"
+                            android:text="Click here: To add me as a Contact" />
+
+                        <RatingBar
+                            android:id="@+id/whiteratingBar"
+                            android:layout_width="wrap_content"
+                            android:layout_height="10dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:numStars="4" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="5dp"
+                android:background="#000000"
+                android:layout_marginTop="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/kingimageView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/kathyking" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/kingtextView"
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="Dr.Kathy King"
+                            android:textColor="#611E10"
+                            android:textSize="25dp" />
+
+                        <Button
+                            android:id="@+id/kingbutton"
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp"
+                            android:layout_weight="1"
+                            android:text="Click here: More about Dr.King" />
+
+                        <RatingBar
+                            android:id="@+id/kingratingBar"
+                            android:layout_width="wrap_content"
+                            android:layout_height="10dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:numStars="4" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="5dp"
+                android:background="#000000"
+                android:layout_marginTop="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="180dp"
+                            android:layout_height="180dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/fongimageView"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:scaleType="centerCrop"
+                                app:srcCompat="@drawable/fong" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/fongtextView"
+                                android:layout_width="match_parent"
+                                android:layout_height="20dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="Dr.Joe Fong"
+                                android:textColor="#611E10"
+                                android:textSize="25dp" />
+
+                            <Button
+                                android:id="@+id/fongbutton"
+                                android:layout_width="match_parent"
+                                android:layout_height="10dp"
+                                android:layout_weight="1"
+                                android:text="Click here: To add me as a Contact"
+                                android:onClick="joeButton"/>
+
+                            <RatingBar
+                                android:id="@+id/fongratingBar"
+                                android:layout_width="wrap_content"
+                                android:layout_height="10dp"
+                                android:layout_gravity="center"
+                                android:layout_weight="1"
+                                android:numStars="4" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sarmirey.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Rey&apos;s Pet Clinic"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Vets" />
+        <activity android:name=".activity_register" />
+        <activity android:name=".pickaGame" />
+        <activity android:name=".GuesstheNumbers" />
+        <activity android:name=".activity_cats" />
+        <activity
+            android:name=".congrats"
+            android:label="@string/title_activity_congrats"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activity_home" />
+        <activity android:name=".activity_addascontact" />
+        <activity android:name=".activity_dogs" />
+        <activity
+            android:name=".trueorFalse"
+            android:label="@string/title_activity_trueor_false"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
